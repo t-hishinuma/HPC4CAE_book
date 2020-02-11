@@ -7,7 +7,7 @@ build:
 	mdbook build -d $(OBJ)
 
 server:
-	rsync -av $(OBJ) $(WWW)
+	rsync -aI $(OBJ)/* $(WWW)
 
 clean:
 	rm -rf $(OBJ)
