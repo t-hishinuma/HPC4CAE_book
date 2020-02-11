@@ -1,4 +1,12 @@
-# hogehoge
+# CAEエンジニアのためのHPC
+＝＝この本の説明＝＝
+
+# Other
+## How to build
+ビルドには[mdbook](https://github.com/rust-lang/mdBook)が必要です．
+```bash
+> make build
+```
 
 ## Acknowledgement
 作成にあたっては[termoshtt](https://github.com/termoshtt)の[my_first_book](https://gitlab.com/termoshtt/my-first-mdbook)を参考にさせていただきました．
